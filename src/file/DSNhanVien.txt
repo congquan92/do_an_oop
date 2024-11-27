@@ -1,0 +1,5 @@
+--- Danh sách nhân sự ---
+Nhân sự:
+ID: 3123560070		Tên: Nguyen Cong Quan		Địa chỉ: Ha Noi		Số điện thoại: 0345658495		Năm vào làm: 2012		Kinh nghiệm: 12		Hệ số phụ cấp: 3.25		Chức vụ: Nhân Viên		Số ngày nghỉ: 2		Tổng tiền lương: 1.408E7
+Nhân sự:
+ID: Dinh Tien Hoang		Tên: Dinh Dien Dang		Địa chỉ: 		Số điện thoại: 0345658474		Năm vào làm: 2022		Kinh nghiệm: 2		Hệ số phụ cấp: 2.0		Chức vụ: Nhân Viên		Số ngày nghỉ: 2		Tổng tiền lương: 8513333.333333334
