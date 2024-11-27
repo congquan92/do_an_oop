@@ -135,7 +135,7 @@ public class QLNS {
                             }
                         }
                         case 4 ->{
-                            String path = "D:\\Nam2\\TestWeb\\OOP\\src\\file\\DSNhanVien.txt";
+                            String path = "src/file/DSNhanVien.txt";
                             ghiDanhSachRaFile(path);
                         }
                         case 5 ->{
@@ -233,7 +233,7 @@ public class QLNS {
                             }
                         }
                         case 4 -> {
-                            String path = "D:\\Nam2\\TestWeb\\OOP\\src\\file\\DSTruongPhong.txt";
+                            String path = "src/file/DSTruongPhong.txt";
                             ghiDanhSachRaFile(path);
                         }
                         case 5 -> {
@@ -332,7 +332,7 @@ public class QLNS {
                             }
                         }
                         case 4 -> {
-                            String path = "D:\\Nam2\\TestWeb\\OOP\\src\\file\\DSGiamDoc.txt";
+                            String path = "src/file/DSGiamDoc.txt";
                             ghiDanhSachRaFile(path);
                         }
                         case 5 -> {

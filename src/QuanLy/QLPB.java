@@ -91,7 +91,7 @@ public class QLPB {
                     }
                 }
                 case 4 -> { // Ghi danh sách phòng ban ra file TXT
-                    String fileName = "D:\\Nam2\\TestWeb\\OOP\\src\\file\\DSPhongBan.txt";
+                    String fileName = "src/file/DSPhongBan.txt";
                     try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
                         for (PhongBan phongBan : arrpb) {
                             writer.write(phongBan.toString());

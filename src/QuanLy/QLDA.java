@@ -121,7 +121,7 @@ public class QLDA {
                     }
                 }
                 case 5 -> { // Ghi danh sách đề án ra file TXT
-                    String fileName = "D:\\Nam2\\TestWeb\\OOP\\src\\file\\DSdean.txt";
+                    String fileName = "src/file/DSdean.txt";
                     try (BufferedWriter writer = new BufferedWriter(new FileWriter(fileName))) {
                         for (DeAn deAn : arrda) {
                             writer.write(deAn.toString());
