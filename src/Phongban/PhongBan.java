@@ -8,14 +8,13 @@ public abstract class PhongBan {
     private String tenPhong;
     private double kinhPhiHoatDong;
     private String ngayThanhLap;
-
     private String[] arrIdNhanVien;
     private String[] arrTenNhanVien;
 
     public static Scanner sc = new Scanner(System.in);
 
     public abstract double thuongPhongban();
-
+    public abstract void soLuong(int n);
     public PhongBan() {
         arrIdNhanVien = new String[0];
         arrTenNhanVien = new String[0];
@@ -81,7 +80,6 @@ public abstract class PhongBan {
             String idNhanVien = sc.nextLine();
             System.out.println("Nhập tên nhân viên thứ " + (i + 1) + ": ");
             String tenNhanVien = sc.nextLine();
-
             themNhanVien(idNhanVien, tenNhanVien);
         }
     }
@@ -102,15 +100,18 @@ public abstract class PhongBan {
     public String toString() {
         StringBuilder nhanVienInfo = new StringBuilder();
         for (int i = 0; i < arrIdNhanVien.length; i++) {
-            nhanVienInfo.append("- ID: ").append(arrIdNhanVien[i])
-                    .append(", Tên: ").append(arrTenNhanVien[i]).append("\n");
+            nhanVienInfo.append(String.format("ID: %-10s | Tên: %-20s\n", arrIdNhanVien[i], arrTenNhanVien[i]));
         }
-        return "Mã phòng: " + maPhong + "\n" +
-                "Tên phòng: " + tenPhong + "\n" +
-                "Kinh phí hoạt động: " + kinhPhiHoatDong + "\n" +
-                "Ngày thành lập: " + ngayThanhLap + "\n" +
-                "Danh sách nhân viên:\n" + nhanVienInfo;
+        return String.format(
+                "Mã phòng    : %-15s | Tên phòng: %-30s |\t" +
+                        "Kinh phí: %,.2f | Ngày thành lập: %-30s |\n" +
+                        "Danh sách nhân viên:\n%s",
+                maPhong, tenPhong,
+                kinhPhiHoatDong, ngayThanhLap,
+                nhanVienInfo.toString()
+        );
     }
+
     public void xuat(){
         System.out.println(toString());
     }

@@ -1,0 +1,10 @@
+DAG1, Phát triển hệ thống quản lý học trực tuyến, 300000000, 01/06/2022, 30/06/2025, 3, LVG1, Nguyễn Văn Hòa, LVG2, Trần Thị Lan, LVG3, Phạm Minh Đức
+DAG2, Ứng dụng AI trong việc cá nhân hóa học tập, 280000000, 15/07/2021, 31/12/2024, 2, LVG4, Lê Hồng Phong, LVG5, Nguyễn Thị Hạnh
+DAG3, Xây dựng thư viện số tích hợp, 250000000, 10/03/2023, 15/09/2025, 3, LVG6, Phạm Quốc Khánh, LVG7, Hoàng Văn Lâm, LVG8, Lê Phương Linh
+DAG4, Phát triển nền tảng hỗ trợ học STEM, 320000000, 05/05/2022, 20/08/2025, 4, LVG9, Lê Anh Dũng, LVG10, Nguyễn Thị Mai, LVG11, Trần Hoài Nam, LVG12, Phạm Văn Kiên
+DAG5, Tối ưu hóa hệ thống quản lý tuyển sinh, 270000000, 20/10/2021, 30/10/2024, 3, LVG13, Hoàng Thanh Bình, LVG14, Phan Thị Yến, LVG15, Lê Quốc Bảo
+DAG6, Triển khai hệ thống đánh giá năng lực tự động, 290000000, 01/02/2023, 01/12/2025, 2, LVG16, Phạm Thị Vân Anh, LVG17, Nguyễn Văn Khôi
+DAG7, Ứng dụng VR trong giảng dạy lịch sử, 310000000, 12/11/2020, 15/11/2024, 4, LVG18, Trần Minh Hải, LVG19, Võ Thị Hoa, LVG20, Nguyễn Văn Bảo, LVG21, Phạm Thị Lệ
+DAG8, Xây dựng hệ thống tư vấn nghề nghiệp thông minh, 280000000, 15/03/2022, 30/09/2025, 3, LVG22, Lê Hoàng Nam, LVG23, Nguyễn Thị Hương, LVG24, Hoàng Anh Tuấn
+DAG9, Nghiên cứu mô hình giáo dục hòa nhập, 260000000, 25/04/2021, 31/12/2024, 2, LVG25, Trần Thị Quỳnh, LVG26, Phạm Văn Hùng
+DAG10, Phát triển ứng dụng hỗ trợ học ngoại ngữ, 240000000, 10/01/2023, 15/07/2025, 3, LVG27, Nguyễn Thị Xuân, LVG28, Hoàng Văn Bình, LVG29, Phạm Quốc Dũng

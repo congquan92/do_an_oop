@@ -113,12 +113,14 @@ public abstract class NhanSu {
 
     @Override
     public String toString() {
-        return "Nhân sự:\n" +
-                "ID: " + this.getId() +
-                "\t\tTên: " + this.getName() +
-                "\t\tĐịa chỉ: " + this.getDiaChi() +
-                "\t\tSố điện thoại: " + this.getPhone() +
-                "\t\tNăm vào làm: " + this.getNamVaolam();
+        return String.format(
+                "ID : %-10s | Tên : %-15s | Địa chỉ : %-20s | Số điện thoại : %-12s | Năm vào làm : %d",
+                this.getId(),
+                this.getName(),
+                this.getDiaChi(),
+                this.getPhone(),
+                this.getNamVaolam()
+        );
     }
 
     public void xuat() {

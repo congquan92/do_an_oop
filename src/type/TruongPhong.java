@@ -85,12 +85,15 @@ public class TruongPhong extends NhanSu {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "\t\tKinh nghiệm: " + getKinhNghiem() +
-                "\t\tHệ số phụ cấp: " + getHeSophucap() +
-                "\t\tChức vụ: " + getChuVu() +
-                "\t\tSố ngày nghỉ: " + getSoNgaynghi() +
-                "\t\tTổng tiền lương: " + tienLuong();
+        return String.format(
+                "%s | Kinh nghiệm: %-5d | Hệ số phụ cấp: %-5.2f | Chức vụ: %-10s | Số ngày nghỉ: %-3d | Tổng tiền lương: %,.2f",
+                super.toString(),
+                getKinhNghiem(),
+                getHeSophucap(),
+                getChuVu(),
+                getSoNgaynghi(),
+                tienLuong()
+        );
     }
 
     public void xuat() {

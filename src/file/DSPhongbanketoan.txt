@@ -1,0 +1,72 @@
+---------Danh Sách Phòng Ban Kế Toán---------
+Mã phòng    : PKT1            | Tên phòng        :  Kiem toan                     |	Kinh phí    : 260,000,000.00 | Ngày thành lập   :  18/11/2017                    |
+Danh sách nhân viên:
+ID:  LPN1      | Tên:  Pham Tien Dung     
+ID:  LPN2      | Tên:  Hoang Van Hoa      
+ID:  LPN3      | Tên:  Tran Van Minh      
+|Số lượng báo cáo hoàn thành: 70              | Thưởng phòng ban: 147,800,000.00 |
+--------------------------------
+Mã phòng    : PKT2            | Tên phòng        :  Phan tich chi phi             |	Kinh phí    : 250,000,000.00 | Ngày thành lập   :  10/01/2018                    |
+Danh sách nhân viên:
+ID:  LPN4      | Tên:  Nguyen Thi Lan     
+ID:  LPN5      | Tên:  Tran Quoc Bao      
+|Số lượng báo cáo hoàn thành: 56              | Thưởng phòng ban: 119,500,000.00 |
+--------------------------------
+Mã phòng    : PKT3            | Tên phòng        :  Bao cao tai chinh             |	Kinh phí    : 270,000,000.00 | Ngày thành lập   :  20/05/2019                    |
+Danh sách nhân viên:
+ID:  LPN6      | Tên:  Pham Van Khanh     
+ID:  LPN7      | Tên:  Nguyen Thi Thao    
+ID:  LPN8      | Tên:  Le Van Trung       
+ID:  LPN9      | Tên:  Dang Thi Hue       
+|Số lượng báo cáo hoàn thành: 66              | Thưởng phòng ban: 140,100,000.00 |
+--------------------------------
+Mã phòng    : PKT4            | Tên phòng        :  Quan ly tai san               |	Kinh phí    : 240,000,000.00 | Ngày thành lập   :  12/09/2020                    |
+Danh sách nhân viên:
+ID:  LPN10     | Tên:  Tran Van Tuan      
+ID:  LPN11     | Tên:  Hoang Thi Mai      
+ID:  LPN12     | Tên:  Pham Thi Kim       
+|Số lượng báo cáo hoàn thành: 34              | Thưởng phòng ban: 75,200,000.00 |
+--------------------------------
+Mã phòng    : PKT5            | Tên phòng        :  Kiem soat noi bo              |	Kinh phí    : 230,000,000.00 | Ngày thành lập   :  01/03/2021                    |
+Danh sách nhân viên:
+ID:  LPN13     | Tên:  Nguyen Van An      
+ID:  LPN14     | Tên:  Vo Thi Ngoc        
+|Số lượng báo cáo hoàn thành: 77              | Thưởng phòng ban: 160,900,000.00 |
+--------------------------------
+Mã phòng    : PKT6            | Tên phòng        :  Phan tich loi nhuan           |	Kinh phí    : 255,000,000.00 | Ngày thành lập   :  15/07/2022                    |
+Danh sách nhân viên:
+ID:  LPN15     | Tên:  Ngo Van Phuoc      
+ID:  LPN16     | Tên:  Ly Thi Hoa         
+ID:  LPN17     | Tên:  Le Thi Thanh       
+|Số lượng báo cáo hoàn thành: 39              | Thưởng phòng ban: 85,650,000.00 |
+--------------------------------
+Mã phòng    : PKT7            | Tên phòng        :  Thue va tuan thu              |	Kinh phí    : 260,000,000.00 | Ngày thành lập   :  05/02/2020                    |
+Danh sách nhân viên:
+ID:  LPN18     | Tên:  Bui Minh Chau      
+ID:  LPN19     | Tên:  Pham Quoc Bao      
+ID:  LPN20     | Tên:  Le Quoc An         
+ID:  LPN21     | Tên:  Nguyen Thi Thanh   
+ID:  LPN22     | Tên:  Hoang Minh Phuc    
+|Số lượng báo cáo hoàn thành: 66              | Thưởng phòng ban: 139,800,000.00 |
+--------------------------------
+Mã phòng    : PKT8            | Tên phòng        :  Xay dung ngan sach            |	Kinh phí    : 245,000,000.00 | Ngày thành lập   :  10/06/2019                    |
+Danh sách nhân viên:
+ID:  LPN23     | Tên:  Nguyen Thi Cuc     
+ID:  LPN24     | Tên:  Tran Van Minh      
+ID:  LPN25     | Tên:  Pham Tien Dung     
+|Số lượng báo cáo hoàn thành: 90              | Thưởng phòng ban: 187,350,000.00 |
+--------------------------------
+Mã phòng    : PKT9            | Tên phòng        :  Theo doi giao dich            |	Kinh phí    : 235,000,000.00 | Ngày thành lập   :  08/12/2021                    |
+Danh sách nhân viên:
+ID:  LPN26     | Tên:  Nguyen Van Hai     
+ID:  LPN27     | Tên:  Hoang Thi Hoa      
+|Số lượng báo cáo hoàn thành: 77              | Thưởng phòng ban: 161,050,000.00 |
+--------------------------------
+Mã phòng    : PKT10           | Tên phòng        :  Ho tro tai chinh              |	Kinh phí    : 265,000,000.00 | Ngày thành lập   :  30/11/2023                    |
+Danh sách nhân viên:
+ID:  LPN28     | Tên:  Le Van Thanh       
+ID:  LPN29     | Tên:  Nguyen Huu Bao     
+ID:  LPN30     | Tên:  Pham Thi Lan       
+ID:  LPN31     | Tên:  Le Dinh Thai       
+|Số lượng báo cáo hoàn thành: 76              | Thưởng phòng ban: 159,950,000.00 |
+--------------------------------

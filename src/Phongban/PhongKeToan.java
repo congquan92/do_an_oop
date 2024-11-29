@@ -22,7 +22,12 @@ public class PhongKeToan extends PhongBan {
 
     @Override
     public double thuongPhongban() {
-        return getKinhPhiHoatDong() * 0.03 + soLuongBaoCaoHoanThanh * 2000000;
+        return getKinhPhiHoatDong() * 0.03 + getSoLuongBaoCaoHoanThanh() * 2000000;
+    }
+
+    @Override
+    public void soLuong(int n) {
+        setSoLuongBaoCaoHoanThanh(n);
     }
 
     public void nhap() {
@@ -33,8 +38,12 @@ public class PhongKeToan extends PhongBan {
 
     @Override
     public String toString() {
-        return super.toString() +
-                "Số lượng báo cáo hoàn thành: " + soLuongBaoCaoHoanThanh + "\n" +
-                "Thưởng phòng ban: " + thuongPhongban() + "\n";
+        return String.format(
+                "%s|Số lượng báo cáo hoàn thành: %-10d | Thưởng phòng ban: %,.2f |",
+                super.toString(),
+                getSoLuongBaoCaoHoanThanh(),
+                thuongPhongban()
+        );
     }
+
 }

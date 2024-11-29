@@ -113,13 +113,11 @@ public abstract class DeAn {
     public String toString() {
         StringBuilder nguoiPhuTrachInfo = new StringBuilder();
         for (int i = 0; i < arrIdNguoiPhuTrach.length; i++) {
-            nguoiPhuTrachInfo.append("- ID: ").append(arrIdNguoiPhuTrach[i])
-                    .append(", Tên: ").append(arrTenNguoiPhuTrach[i]).append("\n");
+            nguoiPhuTrachInfo.append(String.format("| %-10s | %-20s |\n", arrIdNguoiPhuTrach[i], arrTenNguoiPhuTrach[i]));
         }
-        return "Dự án: " + tenDuAn + " (ID: " + id + ")\n" +
-                "Kinh phí: " + kinhPhi + "\n" +
-                "Thời gian: " + ngayBatDau + " đến " + ngayKetThuc + "\n" +
-                "Người phụ trách:\n" + nguoiPhuTrachInfo;
+        return String.format(
+                "| Dự án: %-30s | ID: %-10s | Kinh phí: %,-10.2f | Thời gian: %-15s đến %-15s |\nNgười phụ trách:\n%s",
+                tenDuAn, id, kinhPhi, ngayBatDau, ngayKetThuc, nguoiPhuTrachInfo.toString());
     }
 
     public void xuat() {

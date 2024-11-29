@@ -1,36 +1,51 @@
 package dean;
 
+import java.time.LocalDate;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+
 public class DeAnVua extends DeAn {
-    private int soPhongBan;
+    private String khoangcach;
+
     public DeAnVua() {
     }
 
-    public DeAnVua(String id, String tenDuAn, double kinhPhi, String ngayBatDau, String ngayKetThuc, int soPhongBan) {
+    public DeAnVua(String id, String tenDuAn, double kinhPhi, String ngayBatDau, String ngayKetThuc, String khoangcach) {
         super(id, tenDuAn, kinhPhi, ngayBatDau, ngayKetThuc);
-        this.soPhongBan = soPhongBan;
+        this.khoangcach = khoangcach;
     }
 
-    public int getSoPhongBan() {
-        return soPhongBan;
+    public String getKhoangcach() {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+        LocalDate startDate = LocalDate.parse(super.getNgayBatDau().trim(), formatter);
+        LocalDate endDate = LocalDate.parse(super.getNgayKetThuc().trim(), formatter);
+        Period period = Period.between(startDate, endDate);
+        return (period.getYears() + " năm, " + period.getMonths() + " tháng, " + period.getDays() + " ngày");
     }
 
-    public void setSoPhongBan(int soPhongBan) {
-        this.soPhongBan = soPhongBan;
+    public void setKhoangcach(String khoangcach) {
+        this.khoangcach = khoangcach;
     }
 
     @Override
     public double thuongDuanHoanThanh() {
-        return 2*getKinhPhi();
-    }
-    public void nhap(){
-        super.nhap();
-        System.out.println("Phòng ban:");
-        setSoPhongBan(Integer.parseInt(sc.nextLine()));
+        return 1.5 * getKinhPhi();
     }
 
-    public String toString() {
-        return super.toString() + "\tPhòng ban: " + soPhongBan + "\tThuong tu du an :" + thuongDuanHoanThanh();
+    public void nhap() {
+        super.nhap();
     }
+
+    @Override
+    public String toString() {
+        return String.format(
+                "%s| Thời gian: %-20s | Thưởng từ dự án: %,.2f",
+                super.toString(),
+                getKhoangcach(),
+                thuongDuanHoanThanh()
+        );
+    }
+
     @Override
     public void xuat() {
         System.out.println(toString());
