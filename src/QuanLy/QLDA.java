@@ -535,7 +535,7 @@ public class QLDA implements Menu{
         System.out.println("|                7. Ghi File TXT Đề Án      |");
         System.out.println("|                8.Thoat                    |");
         System.out.println(">>_________________________________________<<");
-        System.out.println(".____________________________________________.");
+        System.out.println(".___________________________________________.");
 
     }
 }

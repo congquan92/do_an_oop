@@ -536,17 +536,17 @@ public void timKiemNhanSuTheoIdHoacTen() {
 
     @Override
     public void menu_chucnang() {
-        System.out.println("._____________________________________________.");
-        System.out.println(">>_______________ Menu chức năng _____________<<");
-        System.out.println("|                1. Thêm Nhân Sự              |");
-        System.out.println("|                2. Sửa Nhân Sự               |");
-        System.out.println("|                3. Xóa Nhân Sự               |");
-        System.out.println("|                4. Xuất Nhân Sự              |");
-        System.out.println("|                5. Xuất Nhân Sự Đã Xóa       |");
-        System.out.println("|                6. Đọc File TXT Nhân Sự      |");
-        System.out.println("|                7. Ghi File TXT Nhân Sự      |");
-        System.out.println("|                8.Thoat                      |");
-        System.out.println(">>__________________________________________<<");
-        System.out.println("._____________________________________________.");
+        System.out.println(".____________________________________________.");
+        System.out.println(">>______________ Menu chức năng _____________<<");
+        System.out.println("|               1. Thêm Nhân Sự              |");
+        System.out.println("|               2. Sửa Nhân Sự               |");
+        System.out.println("|               3. Xóa Nhân Sự               |");
+        System.out.println("|               4. Xuất Nhân Sự              |");
+        System.out.println("|               5. Xuất Nhân Sự Đã Xóa       |");
+        System.out.println("|               6. Đọc File TXT Nhân Sự      |");
+        System.out.println("|               7. Ghi File TXT Nhân Sự      |");
+        System.out.println("|               8.Thoat                      |");
+        System.out.println(">>___________________________________________<<");
+        System.out.println(".____________________________________________.");
     }
 }
