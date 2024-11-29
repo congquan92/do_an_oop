@@ -524,26 +524,29 @@ public void timKiemNhanSuTheoIdHoacTen() {
     }
     @Override
     public void menu() {
-        System.out.println("\n------ Menu ------");
-        System.out.println("1. Nhân viên");
-        System.out.println("2. Trưởng phòng");
-        System.out.println("3. Giám đốc");
-        System.out.println("4. Tìm Kiếm");
-        System.out.println("0. Thoát");
-        System.out.println("--------------------");
+        System.out.println(".________________________________.");
+        System.out.println(".______________ Menu ____________.");
+        System.out.println("|           1. Nhân viên         |");
+        System.out.println("|           2. Trưởng phòng      |");
+        System.out.println("|           3. Giám đốc          |");
+        System.out.println("|           4. Tìm Kiếm          |");
+        System.out.println("|           0. Thoát             |");
+        System.out.println("|________________________________|");
     }
 
     @Override
     public void menu_chucnang() {
-        System.out.println("\n------- Menu chức năng -------");
-        System.out.println("1. Thêm Nhân Sự");
-        System.out.println("2. Sửa Nhân Sự");
-        System.out.println("3. Xóa Nhân Sự");
-        System.out.println("4. Xuất Nhân Sự");
-        System.out.println("5. Xuất Nhân Sự Đã Xóa");
-        System.out.println("6. Đọc File TXT Nhân Sự ");
-        System.out.println("7. Ghi File TXT Nhân Sự");
-        System.out.println("8.Thoat");
-        System.out.println("---------------------------------");
+        System.out.println("._____________________________________________.");
+        System.out.println(">>_______________ Menu chức năng _____________<<");
+        System.out.println("|                1. Thêm Nhân Sự              |");
+        System.out.println("|                2. Sửa Nhân Sự               |");
+        System.out.println("|                3. Xóa Nhân Sự               |");
+        System.out.println("|                4. Xuất Nhân Sự              |");
+        System.out.println("|                5. Xuất Nhân Sự Đã Xóa       |");
+        System.out.println("|                6. Đọc File TXT Nhân Sự      |");
+        System.out.println("|                7. Ghi File TXT Nhân Sự      |");
+        System.out.println("|                8.Thoat                      |");
+        System.out.println(">>__________________________________________<<");
+        System.out.println("._____________________________________________.");
     }
 }

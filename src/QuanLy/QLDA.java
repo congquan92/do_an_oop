@@ -513,25 +513,29 @@ public class QLDA implements Menu{
     }
     @Override
     public void menu(){
-        System.out.println("\n------ Menu ------");
-        System.out.println("1. Đề án lớn");
-        System.out.println("2. Đề án vừa");
-        System.out.println("3. Đề án nhỏ");
-        System.out.println("4. Tìm Kiếm");
-        System.out.println("0.Thoát");
-        System.out.println("--------------------");
+        System.out.println("._____________________________________.");
+        System.out.println("|_________________ Menu ______________|");
+        System.out.println("|            1. Đề án lớn             |");
+        System.out.println("|            2. Đề án vừa             |");
+        System.out.println("|            3. Đề án nhỏ             |");
+        System.out.println("|            4. Tìm Kiếm              |");
+        System.out.println("|            0. Thoát                 |");
+        System.out.println("|_____________________________________|");
     }
     @Override
     public void menu_chucnang(){
-        System.out.println("\n------- Menu chức năng -------");
-        System.out.println("1.Thêm Đề Án");
-        System.out.println("2.Sửa Đề Án");
-        System.out.println("3.Xóa Đề Án");
-        System.out.println("4.Xuất Đề Án");
-        System.out.println("5.Xuất Đề Án Đã Xóa");
-        System.out.println("6.Đọc File Đề Án TxT");
-        System.out.println("7.Ghi File Đề Án TxT");
-        System.out.println("8.Thoát");
-        System.out.println("---------------------------------");
+        System.out.println(".___________________________________________.");
+        System.out.println(">>_____________ Menu chức năng ____________<<");
+        System.out.println("|                1. Thêm Đề Án              |");
+        System.out.println("|                2. Sửa Đề Án               |");
+        System.out.println("|                3. Xóa Đề Án               |");
+        System.out.println("|                4. Xuất Đề Án              |");
+        System.out.println("|                5. Xuất Đề Án Đã Xóa       |");
+        System.out.println("|                6. Đọc File TXT Đề Án      |");
+        System.out.println("|                7. Ghi File TXT Đề Án      |");
+        System.out.println("|                8.Thoat                    |");
+        System.out.println(">>_________________________________________<<");
+        System.out.println(".____________________________________________.");
+
     }
 }

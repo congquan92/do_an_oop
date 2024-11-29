@@ -12,14 +12,14 @@ public class Menu implements display{
     QLDA da = new QLDA();
     QLPB pb = new QLPB();
     public void menu(){
-        System.out.println("-----------Welcome---------");
-        System.out.println("---------------------------");
-        System.out.println("1.Quan Ly Nhan Su");
-        System.out.println("2.Quan Ly De An");
-        System.out.println("3.Quan Phong Ban");
-        System.out.println("4.Thoat");
-        System.out.println("---------------------------");
-        System.out.println("---------------------------");
+        System.out.println("_________________________________");
+        System.out.println("|____________Welcome____________|");
+        System.out.println("|       1.Quan Ly Nhan Su       |");
+        System.out.println("|       2.Quan Ly De An         |");
+        System.out.println("|       3.Quan Phong Ban        |");
+        System.out.println("|       0.Thoat                 |");
+        System.out.println("|_______________________________|");
+        System.out.println("|_______________________________|");
     }
     public void display(){
         boolean flag = true;
@@ -31,10 +31,15 @@ public class Menu implements display{
                 case 1 -> ns.play();
                 case 2 -> da.play();
                 case 3 -> pb.play();
-                case 4 -> {
-                    System.out.println("Bye Bye !!");
+                case 0 -> {
+                    System.out.println(".____________________________.");
+                    System.out.println("|    .__________________.    |");
+                    System.out.println("|    | See You Again !! |    |");
+                    System.out.println("|    |__________________|    |");
+                    System.out.println("|____________________________|");
                     flag = false;
                 }
+                default -> System.out.println("\nKhông hợp lệ !!!!\n");
             }
         }
     }
