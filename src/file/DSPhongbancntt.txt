@@ -1,9 +1,0 @@
----------Danh Sach Phong Ban CNTT---------Mã phòng: 1
-Tên phòng: qwe
-Kinh phí hoạt động: 200000.0
-Ngày thành lập: 20/10/2004
-Danh sách nhân viên:
-- ID: 213, Tên: eq
-Số lượng dự án hoàn thành: 5
-Thưởng phòng ban: 25010000.00
---------------------------------
