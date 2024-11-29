@@ -32,10 +32,12 @@ public class QLDA implements Menu{
         boolean flag = true;
         while(flag){
             menu();
+            System.out.print("Lua Chon Cua Ban :");
             int chose = Integer.parseInt(sc.nextLine());
             switch (chose){
                 case 1 -> {//de an lon
                     menu_chucnang();
+                    System.out.print("Lua Chon Cua Ban :");
                     int chosen = Integer.parseInt(sc.nextLine());
                     switch (chosen){
                         case 1 -> {
@@ -178,6 +180,7 @@ public class QLDA implements Menu{
                 }
                 case 2 -> {
                     menu_chucnang();
+                    System.out.print("Lua Chon Cua Ban :");
                     int chosen = Integer.parseInt(sc.nextLine());
                     switch (chosen) {
                         case 1 -> {
@@ -323,6 +326,7 @@ public class QLDA implements Menu{
                 }
                 case 3 -> {
                     menu_chucnang();
+                    System.out.print("Lua Chon Cua Ban :");
                     int chosen = Integer.parseInt(sc.nextLine());
                     switch (chosen) {
                         case 1 -> {
@@ -475,14 +479,16 @@ public class QLDA implements Menu{
     }
     @Override
     public void menu(){
+        System.out.println("\n------ Menu ------");
         System.out.println("1. Đề án lớn");
         System.out.println("2. Đề án vừa");
         System.out.println("3. Đề án nhỏ");
         System.out.println("4.Thoát");
+        System.out.println("--------------------");
     }
     @Override
     public void menu_chucnang(){
-        System.out.println("---------Menu---------");
+        System.out.println("\n------- Menu chức năng -------");
         System.out.println("1.Them De An");
         System.out.println("2.Sua De An");
         System.out.println("3.Xoa de An");
@@ -491,5 +497,6 @@ public class QLDA implements Menu{
         System.out.println("6.In File TxT");
         System.out.println("7.Doc File TxT");
         System.out.println("8.Thoát");
+        System.out.println("---------------------------------");
     }
 }

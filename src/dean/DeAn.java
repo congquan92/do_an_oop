@@ -113,10 +113,10 @@ public abstract class DeAn {
     public String toString() {
         StringBuilder nguoiPhuTrachInfo = new StringBuilder();
         for (int i = 0; i < arrIdNguoiPhuTrach.length; i++) {
-            nguoiPhuTrachInfo.append(String.format("| %-10s | %-20s |\n", arrIdNguoiPhuTrach[i], arrTenNguoiPhuTrach[i]));
+            nguoiPhuTrachInfo.append(String.format("| ID : %-10s | Tên : %-20s |\n", arrIdNguoiPhuTrach[i], arrTenNguoiPhuTrach[i]));
         }
         return String.format(
-                "| Dự án: %-30s | ID: %-10s | Kinh phí: %,-10.2f | Thời gian: %-15s đến %-15s |\nNgười phụ trách:\n%s",
+                "| Dự án: %-30s | ID: %-10s | Kinh phí: %,-10.2f | Thời gian: %-15s đến %-15s \n| Người phụ trách:\n%s",
                 tenDuAn, id, kinhPhi, ngayBatDau, ngayKetThuc, nguoiPhuTrachInfo.toString());
     }
 

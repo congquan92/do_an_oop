@@ -43,7 +43,7 @@ public class QLNS implements Menu {
             System.out.print("Lựa chọn của bạn: ");
             int choice = Integer.parseInt(sc.nextLine());
             switch (choice) {
-                case 1 -> { // nhan vien
+                case 1 -> {
                     System.out.println("Bạn đang chọn Nhân viên");
                     menu_chucnang();
                     System.out.print("Lựa chọn chức năng: ");
@@ -65,7 +65,7 @@ public class QLNS implements Menu {
                             String key = sc.nextLine();
                             boolean found = false;
                             for (NhanSu ns : arr_ns) {
-                                if (ns instanceof NhanVien) {  // Kiểm tra nếu là NhanVien
+                                if (ns instanceof NhanVien) {
                                     if (ns.getId().equalsIgnoreCase(key) || ns.getName().equalsIgnoreCase(key)) {
                                         found = true;
                                         System.out.println("\nThông tin hiện tại của nhân viên:");
@@ -478,16 +478,17 @@ public class QLNS implements Menu {
     }
     @Override
     public void menu() {
-        System.out.println("\n--- Menu ---");
+        System.out.println("\n------ Menu ------");
         System.out.println("1. Nhân viên");
         System.out.println("2. Trưởng phòng");
         System.out.println("3. Giám đốc");
         System.out.println("0. Thoát");
+        System.out.println("--------------------");
     }
 
     @Override
     public void menu_chucnang() {
-        System.out.println("\n--- Menu chức năng ---");
+        System.out.println("\n------- Menu chức năng -------");
         System.out.println("1. Thêm nhân sự");
         System.out.println("2. Sửa");
         System.out.println("3. Xóa");
@@ -496,5 +497,6 @@ public class QLNS implements Menu {
         System.out.println("6.Xuat danh sách đã xóa");
         System.out.println("7.Doc File TXT");
         System.out.println("8.Thoat");
+        System.out.println("---------------------------------");
     }
 }

@@ -39,7 +39,7 @@ public class PhongCNTT extends PhongBan {
     @Override
     public String toString() {
         return String.format(
-                "%s| Số lượng dự án hoàn thành : %-10d | Thưởng phòng ban : %,.2f |",
+                "%s| Số lượng dự án hoàn thành : %-10d | Thưởng phòng ban : %,.2f \n",
                 super.toString(),
                 getSoLuongDuAnHoanThanh(),
                 thuongPhongban()

@@ -3,7 +3,6 @@ package type;
 import java.time.LocalDate;
 
 public class NhanVien extends NhanSu {
-    private int kinhNghiem;
     private int soNgaynghi;
     private final String chuVu = "Nhân Viên";
     private final int soNgayduocphepnghi = 2;

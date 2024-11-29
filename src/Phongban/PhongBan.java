@@ -100,12 +100,12 @@ public abstract class PhongBan {
     public String toString() {
         StringBuilder nhanVienInfo = new StringBuilder();
         for (int i = 0; i < arrIdNhanVien.length; i++) {
-            nhanVienInfo.append(String.format("ID: %-10s | Tên: %-20s\n", arrIdNhanVien[i], arrTenNhanVien[i]));
+            nhanVienInfo.append(String.format("| ID: %-10s | Tên: %-20s\n", arrIdNhanVien[i], arrTenNhanVien[i]));
         }
         return String.format(
-                "Mã phòng    : %-15s | Tên phòng: %-30s |\t" +
-                        "Kinh phí: %,.2f | Ngày thành lập: %-30s |\n" +
-                        "Danh sách nhân viên:\n%s",
+                "| Mã phòng   : %-10s | Tên phòng: %-30s " +
+                        "| Kinh phí: %,.2f | Ngày thành lập: %-12s" +
+                        "\n| Danh sách nhân viên:\n%s",
                 maPhong, tenPhong,
                 kinhPhiHoatDong, ngayThanhLap,
                 nhanVienInfo.toString()

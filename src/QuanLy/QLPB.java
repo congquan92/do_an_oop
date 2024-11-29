@@ -468,13 +468,16 @@ public class QLPB implements Menu{
     }
     @Override
     public void menu() {
+        System.out.println("\n------ Menu ------");
         System.out.println("1. Phòng Công Nghệ Thông Tin");
         System.out.println("2. Phòng Marketing");
         System.out.println("3. Phòng Kế Toán");
         System.out.println("4. Thoát ");
+        System.out.println("--------------------");
     }
     @Override
     public void menu_chucnang() {
+        System.out.println("\n------- Menu chức năng -------");
         System.out.println("1. Thêm Phòng Ban");
         System.out.println("2. Sửa Phòng Ban");
         System.out.println("3. Xuất Phòng Ban");
@@ -483,5 +486,6 @@ public class QLPB implements Menu{
         System.out.println("6. Xuất Phòng Ban Đã Xóa");
         System.out.println("7. Đọc Từ File TXT");
         System.out.println("8. Thoát");
+        System.out.println("---------------------------------");
     }
 }

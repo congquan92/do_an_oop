@@ -114,7 +114,7 @@ public abstract class NhanSu {
     @Override
     public String toString() {
         return String.format(
-                "ID : %-10s | Tên : %-15s | Địa chỉ : %-20s | Số điện thoại : %-12s | Năm vào làm : %d",
+                "ID : %-10s | Tên : %-20s | Địa chỉ : %-20s | Số điện thoại : %-12s | Năm vào làm : %d",
                 this.getId(),
                 this.getName(),
                 this.getDiaChi(),

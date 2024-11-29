@@ -38,7 +38,7 @@ public class PhongMK extends PhongBan {
     @Override
     public String toString() {
         return String.format(
-                "%s | Số lượng chiến dịch thành công: %-10d | Thưởng phòng ban: %,.2f |",
+                "%s| Số lượng chiến dịch thành công: %-10d | Thưởng phòng ban: %,.2f \n",
                 super.toString(),
                 getSoLuongChienDichThanhCong(),
                 thuongPhongban()

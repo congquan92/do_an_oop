@@ -36,7 +36,7 @@ public class DeAnLon extends DeAn {
     @Override
     public String toString() {
         return String.format(
-                "%s| Thời gian: %-20s | Thưởng từ dự án: %,.2f",
+                "%s| Thời gian: %-20s | Thưởng từ dự án: %,.2f\n",
                 super.toString(),
                 getKhoangcach(),
                 thuongDuanHoanThanh()

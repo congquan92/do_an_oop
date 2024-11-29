@@ -12,16 +12,20 @@ public class Menu implements display{
     QLDA da = new QLDA();
     QLPB pb = new QLPB();
     public void menu(){
-        System.out.println("---------Welcome-------");
+        System.out.println("-----------Welcome---------");
+        System.out.println("---------------------------");
         System.out.println("1.Quan Ly Nhan Su");
         System.out.println("2.Quan Ly De An");
         System.out.println("3.Quan Phong Ban");
         System.out.println("4.Thoat");
+        System.out.println("---------------------------");
+        System.out.println("---------------------------");
     }
     public void display(){
         boolean flag = true;
         while(flag){
             menu();
+            System.out.print("Nhâp [1-4] : ");
             int choice = Integer.parseInt(sc.nextLine());
             switch(choice){
                 case 1 -> ns.play();

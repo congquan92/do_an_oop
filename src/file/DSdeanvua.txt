@@ -1,0 +1,70 @@
+--- Danh sách đề án vừa ---
+| Dự án:  Phát triển hệ thống quản lý học trực tuyến | ID: DAG1       | Kinh phí: 300,000,000.00 | Thời gian:  01/06/2022     đến  30/06/2025     |
+Người phụ trách:
+|  LVG1      |  Nguyễn Văn Hòa      |
+|  LVG2      |  Trần Thị Lan        |
+|  LVG3      |  Phạm Minh Đức       |
+| Thời gian: 3 năm, 0 tháng, 29 ngày | Thưởng từ dự án: 450,000,000.00
+------------------------------------
+| Dự án:  Ứng dụng AI trong việc cá nhân hóa học tập | ID: DAG2       | Kinh phí: 280,000,000.00 | Thời gian:  15/07/2021     đến  31/12/2024     |
+Người phụ trách:
+|  LVG4      |  Lê Hồng Phong       |
+|  LVG5      |  Nguyễn Thị Hạnh     |
+| Thời gian: 3 năm, 5 tháng, 16 ngày | Thưởng từ dự án: 420,000,000.00
+------------------------------------
+| Dự án:  Xây dựng thư viện số tích hợp | ID: DAG3       | Kinh phí: 250,000,000.00 | Thời gian:  10/03/2023     đến  15/09/2025     |
+Người phụ trách:
+|  LVG6      |  Phạm Quốc Khánh     |
+|  LVG7      |  Hoàng Văn Lâm       |
+|  LVG8      |  Lê Phương Linh      |
+| Thời gian: 2 năm, 6 tháng, 5 ngày | Thưởng từ dự án: 375,000,000.00
+------------------------------------
+| Dự án:  Phát triển nền tảng hỗ trợ học STEM | ID: DAG4       | Kinh phí: 320,000,000.00 | Thời gian:  05/05/2022     đến  20/08/2025     |
+Người phụ trách:
+|  LVG9      |  Lê Anh Dũng         |
+|  LVG10     |  Nguyễn Thị Mai      |
+|  LVG11     |  Trần Hoài Nam       |
+|  LVG12     |  Phạm Văn Kiên       |
+| Thời gian: 3 năm, 3 tháng, 15 ngày | Thưởng từ dự án: 480,000,000.00
+------------------------------------
+| Dự án:  Tối ưu hóa hệ thống quản lý tuyển sinh | ID: DAG5       | Kinh phí: 270,000,000.00 | Thời gian:  20/10/2021     đến  30/10/2024     |
+Người phụ trách:
+|  LVG13     |  Hoàng Thanh Bình    |
+|  LVG14     |  Phan Thị Yến        |
+|  LVG15     |  Lê Quốc Bảo         |
+| Thời gian: 3 năm, 0 tháng, 10 ngày | Thưởng từ dự án: 405,000,000.00
+------------------------------------
+| Dự án:  Triển khai hệ thống đánh giá năng lực tự động | ID: DAG6       | Kinh phí: 290,000,000.00 | Thời gian:  01/02/2023     đến  01/12/2025     |
+Người phụ trách:
+|  LVG16     |  Phạm Thị Vân Anh    |
+|  LVG17     |  Nguyễn Văn Khôi     |
+| Thời gian: 2 năm, 10 tháng, 0 ngày | Thưởng từ dự án: 435,000,000.00
+------------------------------------
+| Dự án:  Ứng dụng VR trong giảng dạy lịch sử | ID: DAG7       | Kinh phí: 310,000,000.00 | Thời gian:  12/11/2020     đến  15/11/2024     |
+Người phụ trách:
+|  LVG18     |  Trần Minh Hải       |
+|  LVG19     |  Võ Thị Hoa          |
+|  LVG20     |  Nguyễn Văn Bảo      |
+|  LVG21     |  Phạm Thị Lệ         |
+| Thời gian: 4 năm, 0 tháng, 3 ngày | Thưởng từ dự án: 465,000,000.00
+------------------------------------
+| Dự án:  Xây dựng hệ thống tư vấn nghề nghiệp thông minh | ID: DAG8       | Kinh phí: 280,000,000.00 | Thời gian:  15/03/2022     đến  30/09/2025     |
+Người phụ trách:
+|  LVG22     |  Lê Hoàng Nam        |
+|  LVG23     |  Nguyễn Thị Hương    |
+|  LVG24     |  Hoàng Anh Tuấn      |
+| Thời gian: 3 năm, 6 tháng, 15 ngày | Thưởng từ dự án: 420,000,000.00
+------------------------------------
+| Dự án:  Nghiên cứu mô hình giáo dục hòa nhập | ID: DAG9       | Kinh phí: 260,000,000.00 | Thời gian:  25/04/2021     đến  31/12/2024     |
+Người phụ trách:
+|  LVG25     |  Trần Thị Quỳnh      |
+|  LVG26     |  Phạm Văn Hùng       |
+| Thời gian: 3 năm, 8 tháng, 6 ngày | Thưởng từ dự án: 390,000,000.00
+------------------------------------
+| Dự án:  Phát triển ứng dụng hỗ trợ học ngoại ngữ | ID: DAG10      | Kinh phí: 240,000,000.00 | Thời gian:  10/01/2023     đến  15/07/2025     |
+Người phụ trách:
+|  LVG27     |  Nguyễn Thị Xuân     |
+|  LVG28     |  Hoàng Văn Bình      |
+|  LVG29     |  Phạm Quốc Dũng      |
+| Thời gian: 2 năm, 6 tháng, 5 ngày | Thưởng từ dự án: 360,000,000.00
+------------------------------------
