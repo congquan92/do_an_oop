@@ -436,7 +436,7 @@ private void themGiamDoc() {
         }
     }
 //--------------------------------------
-public void timKiemNhanSuTheoIdHoacTen() {
+private void timKiemNhanSuTheoIdHoacTen() {
     System.out.print("Nhập Mã hoặc Tên Nhân Sự cần tìm: ");
     String key = sc.nextLine();
     boolean found = false;
@@ -451,6 +451,90 @@ public void timKiemNhanSuTheoIdHoacTen() {
         System.out.println("Không tìm thấy Nhân Sự với Mã hoặc Tên đã nhập.");
     }
 }
+
+private void xoanhansu(){
+    System.out.println("Nhập ID muốn xóa:");
+    String key = sc.nextLine();
+    boolean found = false;
+    for (int i = 0; i < arr_ns.length; i++) {
+        NhanSu ns = arr_ns[i];
+        if (ns.getId().equalsIgnoreCase(key) ) {
+                found = true;
+                System.out.println("\nThông tin của Nhân Sự này :");
+                ns.xuat();
+                System.out.println("\nBạn có chắc chắn muốn xóa ?");
+                System.out.println("1. Yes");
+                System.out.println("2. No");
+                int choice = Integer.parseInt(sc.nextLine());
+                if (choice == 1) {
+                    them_1_nhan_su_daxoa(ns);
+                    NhanSu[] newArr = new NhanSu[arr_ns.length - 1];
+                    for (int j = 0, k = 0; j < arr_ns.length; j++) {
+                        if (j != i) {
+                            newArr[k++] = arr_ns[j];
+                        }
+                    }
+                    arr_ns = newArr;
+                    System.out.println("Xóa thành công!");
+                } else {
+                    System.out.println("Đã hủy xóa.");
+                }
+                break;
+        }
+    }
+    if (!found) {
+        System.out.println("Không tìm thấy ID đã nhập.");
+    }
+}
+private void xuatnhansu(){
+    System.out.println("\n--- Danh sách Giám đốc ---");
+    for (NhanSu ns : arr_ns) {
+        if (ns instanceof GiamDoc) {
+            ns.xuat();
+        }
+    }
+    System.out.println("\n--- Danh sách Trưởng Phòng ---");
+    for (NhanSu ns : arr_ns) {
+        if (ns instanceof TruongPhong) {
+            ns.xuat();
+        }
+    }
+    System.out.println("\n--- Danh sách Nhân Viên ---");
+    for (NhanSu ns : arr_ns) {
+        if (ns instanceof NhanVien) {
+            ns.xuat();
+        }
+    }
+}
+    private void ghinhansu() {
+        String path = "src/file/DSTatcanhansu.txt";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write("--- Danh sách Giám đốc ---\n");
+            for (NhanSu ns : arr_ns) {
+                if (ns instanceof GiamDoc) {
+                    writer.write(ns.toString());
+                    writer.newLine();
+                }
+            }
+            writer.write("\n--- Danh sách Trưởng Phòng ---\n");
+            for (NhanSu ns : arr_ns) {
+                if (ns instanceof TruongPhong) {
+                    writer.write(ns.toString());
+                    writer.newLine();
+                }
+            }
+            writer.write("\n--- Danh sách Nhân Viên ---\n");
+            for (NhanSu ns : arr_ns) {
+                if (ns instanceof NhanVien) {
+                    writer.write(ns.toString());
+                    writer.newLine();
+                }
+            }
+            System.out.println("Ghi danh sách vào file thành công!");
+        } catch (IOException e) {
+            System.out.println("Lỗi khi ghi file: " + e.getMessage());
+        }
+    }
 
     @Override
     public void play() {
@@ -511,8 +595,17 @@ public void timKiemNhanSuTheoIdHoacTen() {
                         default -> System.out.println("Chức năng chưa hỗ trợ!");
                     }
                 }
-                case 4-> {
+                case 4->{
+                    xuatnhansu();
+                }
+                case 5-> {
                     timKiemNhanSuTheoIdHoacTen();
+                }
+                case 6 ->{
+                    xoanhansu();
+                }
+                case 7 ->{
+                    ghinhansu();
                 }
                 case 0 -> {
                     System.out.println("Thoát chương trình.");
@@ -529,7 +622,10 @@ public void timKiemNhanSuTheoIdHoacTen() {
         System.out.println("|           1. Nhân viên         |");
         System.out.println("|           2. Trưởng phòng      |");
         System.out.println("|           3. Giám đốc          |");
-        System.out.println("|           4. Tìm Kiếm          |");
+        System.out.println("|           4. Xuất              |");
+        System.out.println("|           5. Tìm Kiếm          |");
+        System.out.println("|           6. Xóa               |");
+        System.out.println("|           7. In file TXT       |");
         System.out.println("|           0. Thoát             |");
         System.out.println("|________________________________|");
     }

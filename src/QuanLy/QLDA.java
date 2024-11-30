@@ -4,7 +4,6 @@ import dean.DeAn;
 import dean.DeAnLon;
 import dean.DeAnNho;
 import dean.DeAnVua;
-
 import java.io.*;
 import java.util.Arrays;
 import java.util.Scanner;
@@ -124,7 +123,7 @@ public class QLDA implements Menu{
             for (DeAn deAn : arrda) {
                 if (deAn instanceof DeAnLon) {
                     writer.write(deAn.toString());
-                    writer.write("\n-----------------------------------");
+                    writer.write("\n---------------------------------------------------------------------------");
                     writer.newLine();
                 }
             }
@@ -259,7 +258,7 @@ public class QLDA implements Menu{
             for (DeAn deAn : arrda) {
                 if (deAn instanceof DeAnVua) {
                     writer.write(deAn.toString());
-                    writer.write("\n------------------------------------");
+                    writer.write("\n---------------------------------------------------------------------------");
                     writer.newLine();
                 }
             }
@@ -393,7 +392,7 @@ public class QLDA implements Menu{
             for (DeAn deAn : arrda) {
                 if (deAn instanceof DeAnNho) {
                     writer.write(deAn.toString());
-                    writer.write("\n-----------------------------------");
+                    writer.write("\n---------------------------------------------------------------------------");
                     writer.newLine();
                 }
             }
@@ -443,6 +442,94 @@ public class QLDA implements Menu{
             System.out.println("Không tìm thấy Đề Án với Mã hoặc Tên đã nhập.");
         }
     }
+
+    private void xoadean(){
+        System.out.println("Nhập ID muốn xóa:");
+        String key = sc.nextLine();
+        boolean found = false;
+        for (int i = 0; i < arrda.length; i++) {
+            DeAn da = arrda[i];
+            if (da.getId().equalsIgnoreCase(key) ) {
+                found = true;
+                System.out.println("\nThông tin của Đề Án này :");
+                da.xuat();
+                System.out.println("\nBạn có chắc chắn muốn xóa ?");
+                System.out.println("1. Yes");
+                System.out.println("2. No");
+                int choice = Integer.parseInt(sc.nextLine());
+                if (choice == 1) {
+                    them_1_dean_daxoa(da);
+                    DeAn[] newArr = new DeAn[arrda.length - 1];
+                    for (int j = 0, k = 0; j < arrda.length; j++) {
+                        if (j != i) {
+                            newArr[k++] = arrda[j];
+                        }
+                    }
+                    arrda = newArr;
+                    System.out.println("Xóa thành công!");
+                } else {
+                    System.out.println("Đã hủy xóa.");
+                }
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println("Không tìm thấy ID đã nhập.");
+        }
+    }
+    private void xuatdean(){
+        System.out.println("\n--- Danh sách Đề Án Lớn ---");
+        for (DeAn da : arrda) {
+            if (da instanceof DeAnLon) {
+                da.xuat();
+            }
+        }
+        System.out.println("\n--- Danh sách Đề Án Vừa ---");
+        for (DeAn da : arrda) {
+            if (da instanceof DeAnVua) {
+                da.xuat();
+            }
+        }
+        System.out.println("\n--- Danh sách Đề Án Nhỏ ---");
+        for (DeAn da : arrda) {
+            if (da instanceof DeAnNho) {
+                da.xuat();
+            }
+        }
+    }
+    private void ghidean() {
+        String path = "src/file/DSTatcadean.txt";
+        try (BufferedWriter writer = new BufferedWriter(new FileWriter(path))) {
+            writer.write("--- Danh sách đề án lớn ---\n");
+            for (DeAn deAn : arrda) {
+                if (deAn instanceof DeAnLon) {
+                    writer.write(deAn.toString());
+                    writer.write("\n---------------------------------------------------------------------------");
+                    writer.newLine();
+                }
+            }
+            writer.write("--- Danh sách đề án vừa ---\n");
+            for (DeAn deAn : arrda) {
+                if (deAn instanceof DeAnVua) {
+                    writer.write(deAn.toString());
+                    writer.write("\n---------------------------------------------------------------------------");
+                    writer.newLine();
+                }
+            }
+            writer.write("--- Danh sách đề án nhỏ ---\n");
+            for (DeAn deAn : arrda) {
+                if (deAn instanceof DeAnNho) {
+                    writer.write(deAn.toString());
+                    writer.write("\n---------------------------------------------------------------------------");
+                    writer.newLine();
+                }
+            }
+            System.out.println("Ghi danh sách vào file thành công!");
+        } catch (IOException e) {
+            System.out.println("Lỗi khi ghi file: " + e.getMessage());
+        }
+    }
+
 
     @Override
     public void play(){
@@ -501,7 +588,16 @@ public class QLDA implements Menu{
                     }
                 }
                 case 4 ->{
+                   xuatdean();
+                }
+                case 5 -> {
                     timKiemDeAnTheoIdHoacTen();
+                }
+                case 6 -> {
+                    xoadean();
+                }
+                case 7 -> {
+                    ghidean();
                 }
                 case 0 ->{
                     System.out.println("Thoát chương trình.");
@@ -518,7 +614,10 @@ public class QLDA implements Menu{
         System.out.println("|            1. Đề án lớn             |");
         System.out.println("|            2. Đề án vừa             |");
         System.out.println("|            3. Đề án nhỏ             |");
-        System.out.println("|            4. Tìm Kiếm              |");
+        System.out.println("|            4. Xuất                   |");
+        System.out.println("|            5. Tìm Kiếm               |");
+        System.out.println("|            6. Xóa                    |");
+        System.out.println("|            7. In file TXT            |");
         System.out.println("|            0. Thoát                 |");
         System.out.println("|_____________________________________|");
     }

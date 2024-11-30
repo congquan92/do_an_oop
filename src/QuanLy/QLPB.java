@@ -4,6 +4,10 @@ import Phongban.PhongBan;
 import Phongban.PhongCNTT;
 import Phongban.PhongKeToan;
 import Phongban.PhongMK;
+import dean.DeAn;
+import dean.DeAnLon;
+import dean.DeAnNho;
+import dean.DeAnVua;
 
 import java.io.*;
 import java.util.Arrays;
@@ -80,7 +84,7 @@ public class QLPB implements Menu{
             for (PhongBan pb : arrpb) {
                 if (pb instanceof PhongCNTT) {
                     w.write(pb.toString());
-                    w.write("\n--------------------------------");
+                    w.write("\n-------------------------------------------------------------------------------");
                     w.newLine();
                 }
             }
@@ -250,7 +254,7 @@ public class QLPB implements Menu{
             for (PhongBan pb : arrpb) {
                 if (pb instanceof PhongMK) {
                     w.write(pb.toString());
-                    w.write("\n--------------------------------");
+                    w.write("\n-------------------------------------------------------------------------------");
                     w.newLine();
                 }
             }
@@ -348,7 +352,7 @@ public class QLPB implements Menu{
             for (PhongBan pb : arrpb) {
                 if (pb instanceof PhongKeToan) {
                     w.write(pb.toString());
-                    w.write("\n--------------------------------");
+                    w.write("\n-------------------------------------------------------------------------------");
                     w.newLine();
                 }
             }
@@ -441,6 +445,92 @@ public class QLPB implements Menu{
             System.out.println("Không tìm thấy phòng ban với Mã hoặc Tên đã nhập.");
         }
     }
+    private void xoaphongban(){
+        System.out.println("Nhập ID muốn xóa:");
+        String key = sc.nextLine();
+        boolean found = false;
+        for (int i = 0; i < arrpb.length; i++) {
+            PhongBan pb = arrpb[i];
+            if ( pb.getMaPhong().equalsIgnoreCase(key)) {
+                found = true;
+                System.out.println("Thông tin hiện tại của Phòng Ban:");
+                pb.xuat();
+                System.out.println("\nBạn có chắc chắn muốn xóa Phòng Ban này?");
+                System.out.println("1. Yes");
+                System.out.println("2. No");
+                int n = Integer.parseInt(sc.nextLine());
+                if (n == 1) {
+                    them_1_phongban_da_xoa(pb);
+                    PhongBan[] newArr = new PhongBan[arrpb.length - 1];
+                    for (int j = 0, k = 0; j < arrpb.length; j++) {
+                        if (j != i) {
+                            newArr[k++] = arrpb[j];
+                        }
+                    }
+                    arrpb = newArr;
+                    System.out.println("Xóa Phòng Ban Thành Công!");
+                } else {
+                    System.out.println("Đã Hủy Xóa!");
+                }
+                break;
+            }
+        }
+        if (!found) {
+            System.out.println("Không tìm thấy ID đã nhập.");
+        }
+    }
+    private void xuatphongban(){
+        System.out.println("\n---Danh Sách Các Phòng Công Nghệ Thông Tin---");
+        for (PhongBan pb : arrpb) {
+            if (pb instanceof PhongCNTT) {
+                pb.xuat();
+            }
+        }
+        System.out.println("\n---Danh Sách Các Phòng Marketing---");
+        for (PhongBan pb : arrpb) {
+            if (pb instanceof PhongMK) {
+                pb.xuat();
+            }
+        }
+        System.out.println("\n---Danh Sách Các Phòng Ban Kế Toán---");
+        for (PhongBan pb : arrpb) {
+            if (pb instanceof PhongKeToan) {
+                pb.xuat();
+            }
+        }
+    }
+    private void ghiphongban() {
+        String path = "src/file/DSTatcaphongban.txt";
+        try (BufferedWriter w = new BufferedWriter(new FileWriter(path))) {
+            w.write("---------Danh Sách Phòng Ban Công Nghệ Thông Tin---------\n");
+            for (PhongBan pb : arrpb) {
+                if (pb instanceof PhongMK) {
+                    w.write(pb.toString());
+                    w.write("\n-------------------------------------------------------------------------------");
+                    w.newLine();
+                }
+            }
+            w.write("---------Danh Sách Phòng Ban Marketing---------\n");
+            for (PhongBan pb : arrpb) {
+                if (pb instanceof PhongMK) {
+                    w.write(pb.toString());
+                    w.write("\n-------------------------------------------------------------------------------");
+                    w.newLine();
+                }
+            }
+            w.write("---------Danh Sách Phòng Ban Kế Toán---------\n");
+            for (PhongBan pb : arrpb) {
+                if (pb instanceof PhongKeToan) {
+                    w.write(pb.toString());
+                    w.write("\n-------------------------------------------------------------------------------");
+                    w.newLine();
+                }
+            }
+            System.out.println("Ghi danh sách vào file thành công!");
+        } catch (IOException e) {
+            System.out.println("Lỗi khi ghi file: " + e.getMessage());
+        }
+    }
 
     @Override
     public void play() {
@@ -504,7 +594,16 @@ public class QLPB implements Menu{
                     }
                 }
                 case 4->{
+                   xuatphongban();
+                }
+                case 5 ->{
                     timKiemPhongBanTheoIdHoacTen();
+                }
+                case 6 ->{
+                    xoaphongban();
+                }
+                case 7 ->{
+                    ghiphongban();
                 }
                 case 0 -> {
                     System.out.println("Thoát chương trình.");
@@ -521,7 +620,10 @@ public class QLPB implements Menu{
         System.out.println("|      1. Phòng Công Nghệ Thông Tin   |");
         System.out.println("|      2. Phòng Marketing             |");
         System.out.println("|      3. Phòng Kế Toán               |");
-        System.out.println("|      4. Tìm Kiếm                    |");
+        System.out.println("|      4. Xuất                        |");
+        System.out.println("|      5. Tìm Kiếm                    |");
+        System.out.println("|      6. Xóa                         |");
+        System.out.println("|      7. In file TXT                 |");
         System.out.println("|      0. Thoát                       |");
         System.out.println("|_____________________________________|");
     }
