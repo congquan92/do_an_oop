@@ -545,7 +545,7 @@ public void timKiemNhanSuTheoIdHoacTen() {
         System.out.println("|               5. Xuất Nhân Sự Đã Xóa       |");
         System.out.println("|               6. Đọc File TXT Nhân Sự      |");
         System.out.println("|               7. Ghi File TXT Nhân Sự      |");
-        System.out.println("|               8.Thoat                      |");
+        System.out.println("|               8.Thoát                      |");
         System.out.println(">>___________________________________________<<");
         System.out.println(".____________________________________________.");
     }

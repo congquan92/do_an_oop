@@ -526,14 +526,14 @@ public class QLDA implements Menu{
     public void menu_chucnang(){
         System.out.println(".___________________________________________.");
         System.out.println(">>_____________ Menu chức năng ____________<<");
-        System.out.println("|                1. Thêm Đề Án              |");
-        System.out.println("|                2. Sửa Đề Án               |");
-        System.out.println("|                3. Xóa Đề Án               |");
-        System.out.println("|                4. Xuất Đề Án              |");
-        System.out.println("|                5. Xuất Đề Án Đã Xóa       |");
-        System.out.println("|                6. Đọc File TXT Đề Án      |");
-        System.out.println("|                7. Ghi File TXT Đề Án      |");
-        System.out.println("|                8.Thoat                    |");
+        System.out.println("|              1. Thêm Đề Án                |");
+        System.out.println("|              2. Sửa Đề Án                 |");
+        System.out.println("|              3. Xóa Đề Án                 |");
+        System.out.println("|              4. Xuất Đề Án                |");
+        System.out.println("|              5. Xuất Đề Án Đã Xóa         |");
+        System.out.println("|              6. Đọc File TXT Đề Án        |");
+        System.out.println("|              7. Ghi File TXT Đề Án        |");
+        System.out.println("|              8.Thoát                      |");
         System.out.println(">>_________________________________________<<");
         System.out.println(".___________________________________________.");
 

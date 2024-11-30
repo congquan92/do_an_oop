@@ -536,7 +536,7 @@ public class QLPB implements Menu{
         System.out.println("|               5. Xuất Phòng Ban Đã Xóa       |");
         System.out.println("|               6. Đọc File TXT Phòng Ban      |");
         System.out.println("|               7. Ghi File TXT Phòng Ban      |");
-        System.out.println("|               8.Thoat                        |");
+        System.out.println("|               8.Thoát                        |");
         System.out.println(">>_____________________________________________<<");
         System.out.println(".______________________________________________.");
 

@@ -14,10 +14,10 @@ public class Menu implements display{
     public void menu(){
         System.out.println("_________________________________");
         System.out.println("|____________Welcome____________|");
-        System.out.println("|       1.Quan Ly Nhan Su       |");
-        System.out.println("|       2.Quan Ly De An         |");
-        System.out.println("|       3.Quan Phong Ban        |");
-        System.out.println("|       0.Thoat                 |");
+        System.out.println("|       1.Quản Lý Nhân Sự       |");
+        System.out.println("|       2.Quản Lý Đề Án         |");
+        System.out.println("|       3.Quản Phòng Ban        |");
+        System.out.println("|       0.Thoát                 |");
         System.out.println("|_______________________________|");
         System.out.println("|_______________________________|");
     }
