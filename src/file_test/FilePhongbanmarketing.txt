@@ -1,0 +1,10 @@
+PMK1, Gioi thieu san pham, 190000000, 10/11/2018, 55, 2, QLP1, Hoang Thi Mai, QLP2, Pham Quoc Bao
+PMK2, Quan ly chien dich, 210000000, 15/03/2019, 65, 3, QLP3, Tran Van Tuan, QLP4, Nguyen Thi Thanh, QLP5, Le Quoc An
+PMK3, Nghien cuu thi truong, 220000000, 25/07/2020, 67, 4, QLP6, Nguyen Van Hai, QLP7, Pham Thi Lan, QLP8, Ngo Van Phuoc, QLP9, Le Thi Kim
+PMK4, Quan he cong chung, 200000000, 01/01/2021, 54, 2, QLP10, Vo Thi Hue, QLP11, Dang Van Hung
+PMK5, Quan ly nhan hieu, 195000000, 30/06/2022, 66, 1, QLP12, Ly Thi Hoa
+PMK6, To chuc su kien, 230000000, 10/10/2019, 43, 5, QLP13, Truong Van Tam, QLP14, Tran Thi Hoa, QLP15, Pham Van Khanh, QLP16, Nguyen Van Duc, QLP17, Le Thi Mai
+PMK7, Truyen thong ky thuat so, 180000000, 05/02/2020, 54, 2, QLP18, Bui Minh Chau, QLP19, Vo Van An
+PMK8, Thiet ke sang tao, 250000000, 22/08/2021, 56, 3, QLP20, Nguyen Huu Bao, QLP21, Le Van Trung, QLP22, Hoang Minh Phuc
+PMK9, Phat trien noi dung, 170000000, 14/05/2023, 43, 4, QLP23, Nguyen Thi Cuc, QLP24, Tran Quoc Bao, QLP25, Le Dinh Thai, QLP26, Vo Thi Ngoc
+PMK10, Phat hanh quang cao, 260000000, 18/11/2017, 23, 3, QLP27, Pham Tien Dung, QLP28, Hoang Van Hoa, QLP29, Tran Van Minh

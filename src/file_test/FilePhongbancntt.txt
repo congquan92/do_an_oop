@@ -1,0 +1,10 @@
+PCNTT1, Thiet ke web, 200000000, 20/11/2019, 55, 2, TLN1, Huynh Van Bac, TLN2, Phan Cong An
+PCNTT2, Lap trinh ung dung, 150000000, 15/07/2020, 77, 3, TLN3, Tran Thi Hoa, TLN4, Nguyen Van Minh, TLN5, Le Quang Dat
+PCNTT3, Bao tri he thong, 180000000, 10/01/2018, 87, 2, TLN6, Nguyen Thu Lan, TLN7, Vo Hoang Nam
+PCNTT4, Phat trien phan mem, 250000000, 05/03/2021, 67, 4, TLN8, Hoang Van Tam, TLN9, Le Thi Hong, TLN10, Pham Minh Chau, TLN11, Ngo Van An
+PCNTT5, Kiem thu chat luong, 120000000, 25/09/2022, 66, 1, TLN12, Doan Thi Hang
+PCNTT6, Ho tro ky thuat, 140000000, 12/12/2017, 35, 3, TLN13, Ly Hoang Anh, TLN14, Phan Thi Trang, TLN15, Dang Van Phu
+PCNTT7, Quan tri mang, 175000000, 30/08/2021, 66, 2, TLN16, Truong Van Hai, TLN17, Nguyen Thi Cuc
+PCNTT8, Nghien cuu AI, 300000000, 01/06/2023, 65, 5, TLN18, Nguyen Tien Dung, TLN19, Le Van Hoa, TLN20, Tran Thi Thanh, TLN21, Bui Van Hanh, TLN22, Vo Thi Hue
+PCNTT9, Phat trien Game, 220000000, 14/02/2020, 87, 3, TLN23, Nguyen Huu Phuoc, TLN24, Tran Thi Linh, TLN25, Le Dinh Trung
+PCNTT10, Dao tao CNTT, 190000000, 10/11/2018, 55, 2, TLN26, Hoang Thi Mai, TLN27, Pham Quoc

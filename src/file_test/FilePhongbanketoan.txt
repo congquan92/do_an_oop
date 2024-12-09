@@ -1,0 +1,10 @@
+PKT1, Kiem toan, 260000000, 18/11/2017, 70, 3, LPN1, Pham Tien Dung, LPN2, Hoang Van Hoa, LPN3, Tran Van Minh
+PKT2, Phan tich chi phi, 250000000, 10/01/2018, 56, 2, LPN4, Nguyen Thi Lan, LPN5, Tran Quoc Bao
+PKT3, Bao cao tai chinh, 270000000, 20/05/2019, 66, 4, LPN6, Pham Van Khanh, LPN7, Nguyen Thi Thao, LPN8, Le Van Trung, LPN9, Dang Thi Hue
+PKT4, Quan ly tai san, 240000000, 12/09/2020, 34, 3, LPN10, Tran Van Tuan, LPN11, Hoang Thi Mai, LPN12, Pham Thi Kim
+PKT5, Kiem soat noi bo, 230000000, 01/03/2021, 77, 2, LPN13, Nguyen Van An, LPN14, Vo Thi Ngoc
+PKT6, Phan tich loi nhuan, 255000000, 15/07/2022, 39, 3, LPN15, Ngo Van Phuoc, LPN16, Ly Thi Hoa, LPN17, Le Thi Thanh
+PKT7, Thue va tuan thu, 260000000, 05/02/2020, 66, 5, LPN18, Bui Minh Chau, LPN19, Pham Quoc Bao, LPN20, Le Quoc An, LPN21, Nguyen Thi Thanh, LPN22, Hoang Minh Phuc
+PKT8, Xay dung ngan sach, 245000000, 10/06/2019, 90, 3, LPN23, Nguyen Thi Cuc, LPN24, Tran Van Minh, LPN25, Pham Tien Dung
+PKT9, Theo doi giao dich, 235000000, 08/12/2021, 77, 2, LPN26, Nguyen Van Hai, LPN27, Hoang Thi Hoa
+PKT10, Ho tro tai chinh, 265000000, 30/11/2023, 76, 4, LPN28, Le Van Thanh, LPN29, Nguyen Huu Bao, LPN30, Pham Thi Lan, LPN31, Le Dinh Thai
