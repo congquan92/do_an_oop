@@ -1,0 +1,10 @@
+DAL1, Nghiên cứu AI, 100000000, 01/04/2023, 15/12/2024, 2, LV1, Lê Hoài, LV2, Trịnh Tùng
+DAL2, Phát triển Blockchain, 120000000, 15/05/2023, 01/01/2025, 3, LV3, Nguyễn Văn Hùng, LV4, Trần Thị Hồng, LV5, Lê Hữu Quang
+DAL3, Xây dựng ứng dụng Mobile, 150000000, 01/03/2022, 10/09/2024, 2, LV6, Trần Minh Khang, LV7, Hoàng Phương Anh
+DAL4, Nghiên cứu Robot, 200000000, 10/10/2021, 20/10/2024, 4, LV8, Đặng Huy Nam, LV9, Phạm Thị Thu, LV10, Nguyễn Anh Tuấn, LV11, Lê Quang Hải
+DAL5, Phát triển hệ thống IoT, 180000000, 05/06/2020, 25/12/2023, 3, LV12, Nguyễn Văn Hòa, LV13, Phan Hoài Nam, LV14, Bùi Thanh Sơn
+DAL6, Tối ưu hóa thuật toán, 90000000, 12/11/2022, 30/06/2024, 2, LV15, Lê Phương Nam, LV16, Hoàng Văn Cường
+DAL7, Nghiên cứu mạng 5G, 250000000, 01/01/2023, 15/07/2025, 5, LV17, Phạm Quang Vũ, LV18, Nguyễn Đức Thịnh, LV19, Trần Văn Hiếu, LV20, Mai Thị Linh, LV21, Hoàng Hải Đăng
+DAL8, Triển khai hệ thống Cloud, 170000000, 15/07/2021, 01/12/2024, 4, LV22, Võ Đức Lộc, LV23, Đỗ Quang Bình, LV24, Trần Ngọc Thảo, LV25, Lê Văn Quân
+DAL9, Phát triển AI hỗ trợ y tế, 300000000, 20/08/2020, 31/12/2025, 3, LV27, Phan Thị Mai, LV28, Nguyễn Văn Toàn, LV29, Đặng Thị Ngọc Lan
+DAL10, Tích hợp hệ thống Big Data, 220000000, 25/09/2023, 30/11/2024, 2, LV40, Bùi Anh Khoa, LV41, Lê Thị Thu

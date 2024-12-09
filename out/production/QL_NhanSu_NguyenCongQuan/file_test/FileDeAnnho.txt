@@ -1,0 +1,10 @@
+DAN1, Phân tích chất lượng không khí đô thị, 180000000, 15/04/2022, 20/12/2024, 2, LVN1, Nguyễn Văn Sơn, LVN2, Trần Thị Hạnh
+DAN2, Phát triển hệ thống tái chế nhựa thông minh, 250000000, 10/03/2023, 30/09/2025, 3, LVN3, Lê Hoàng Minh, LVN4, Phạm Quang Huy, LVN5, Nguyễn Thị Vân
+DAN3, Xây dựng mô hình cảnh báo lũ quét, 200000000, 01/07/2021, 15/12/2024, 2, LVN6, Trần Minh Khoa, LVN7, Lê Quỳnh Anh
+DAN4, Nghiên cứu năng lượng tái tạo từ rác thải, 300000000, 20/08/2020, 31/12/2025, 4, LVN8, Hoàng Văn Tâm, LVN9, Nguyễn Thị Thu, LVN10, Phạm Văn Lộc, LVN11, Trần Văn Thịnh
+DAN5, Phát triển hệ thống giám sát rừng nhiệt đới, 270000000, 05/05/2021, 01/01/2025, 3, LVN12, Phan Văn Duy, LVN13, Đặng Thị Hà, LVN14, Nguyễn Minh Tú
+DAN6, Triển khai công nghệ lọc nước ngầm, 190000000, 25/12/2022, 15/11/2024, 2, LVN15, Lê Văn An, LVN16, Trịnh Thị Mai
+DAN7, Phân tích tác động của biến đổi khí hậu đến nông nghiệp, 320000000, 10/06/2020, 30/06/2025, 5, LVN17, Hoàng Văn Hậu, LVN18, Nguyễn Thị Kim, LVN19, Trần Thị Thanh, LVN20, Phạm Minh Tuấn, LVN21, Mai Hoàng Anh
+DAN8, Nghiên cứu giảm thiểu ô nhiễm biển, 280000000, 15/02/2023, 31/12/2024, 3, LVN22, Võ Đức Hải, LVN23, Lê Thị Hằng, LVN24, Trần Văn Hiếu
+DAN9, Xây dựng công nghệ xử lý nước thải sinh hoạt, 230000000, 01/03/2021, 20/09/2024, 4, LVN25, Phạm Quang Long, LVN26, Nguyễn Thị Ánh, LVN27, Hoàng Văn Phúc, LVN28, Trần Văn Bảo
+DAN10, Phát triển hệ thống quan trắc môi trường tự động, 260000000, 12/11/2022, 30/11/2025, 2, LVN29, Lê Hoàng Hải, LVN30, Nguyễn Văn Thanh
